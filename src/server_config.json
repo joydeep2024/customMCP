@@ -1,0 +1,14 @@
+{
+    "mcpServers": {
+        
+        "localServer": {
+            "fromTopic": "server_response_topic",
+			"toTopic": "server_request_topic"
+        },
+		"datastoreServer":{
+			"fromTopic": "datastore_response_topic",
+			"toTopic": "datastore_request_topic"
+		}	
+    }
+}
+  
